@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class SearchAlgorithms {
 
-    // Linear Search
+    
     public static Product linearSearch(Product[] products, String target) {
 
         for (Product product : products) {
@@ -16,7 +16,7 @@ public class SearchAlgorithms {
         return null;
     }
 
-    // Binary Search
+    
     public static Product binarySearch(Product[] products, String target) {
 
         int left = 0;

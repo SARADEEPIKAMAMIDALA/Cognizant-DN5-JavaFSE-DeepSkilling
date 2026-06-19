@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Cognizant-DN5-JavaFSE-DeepSkilling\Week-01\Data-Structures-And-Algorithms\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3281364847.index
-3413270776.index
