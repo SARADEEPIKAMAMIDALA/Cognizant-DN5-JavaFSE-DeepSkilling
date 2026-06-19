@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Cognizant-DN5-JavaFSE-DeepSkilling\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2869710735.index
-3935856848.index
