@@ -1,0 +1,125 @@
+Analysis
+Time Complexity of Recursive Algorithm
+
+The recursive method calls itself once for every year until the value of years becomes 0.
+
+Example:
+
+predictFutureValue(10000, 0.10, 5)
+    ↓
+predictFutureValue(11000, 0.10, 4)
+    ↓
+predictFutureValue(12100, 0.10, 3)
+    ↓
+predictFutureValue(13310, 0.10, 2)
+    ↓
+predictFutureValue(14641, 0.10, 1)
+    ↓
+predictFutureValue(16105.1, 0.10, 0)
+
+If there are n years, the function executes n recursive calls.
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+because each recursive call is stored in the call stack until the base case is reached.
+
+Optimization to Avoid Excessive Computation
+
+Instead of recursively calculating the value year by year, we can directly use the compound growth formula:
+
+Future Value = Present Value × (1 + Growth Rate)^Years
+
+Example:
+
+double futureValue =
+        currentValue * Math.pow(1 + growthRate, years);
+
+Advantages:
+
+No recursive calls.
+No extra stack memory.
+Faster execution.
+
+Optimized Time Complexity: O(1)
+
+Optimized Space Complexity: O(1)
+
+Conclusion: The recursive approach is useful for understanding recursion, but the mathematical formula is preferred in real-world financial applications because it avoids unnecessary computations.
+
+2. E-commerce Platform Search Function
+File Name
+SearchFunction.java
+
+or
+
+EcommerceSearchFunction.java
+Analysis
+Comparison of Linear Search and Binary Search
+Linear Search
+
+Linear Search checks each product one by one until the target product is found.
+
+Example:
+
+Laptop
+Phone
+Shoes
+Watch
+Tablet
+
+Searching for Watch:
+
+Laptop → Phone → Shoes → Watch
+
+The algorithm may need to check many elements before finding the product.
+
+Case	Time Complexity
+Best Case	O(1)
+Average Case	O(n)
+Worst Case	O(n)
+Binary Search
+
+Binary Search works only on a sorted array.
+
+It repeatedly divides the search space into two halves.
+
+Example:
+
+Laptop
+Phone
+Shoes
+Tablet
+Watch
+
+Searching for Watch:
+
+Check middle element
+↓
+Discard half of the array
+↓
+Search remaining half
+Case	Time Complexity
+Best Case	O(1)
+Average Case	O(log n)
+Worst Case	O(log n)
+Which Algorithm is More Suitable?
+
+For an e-commerce platform, Binary Search is more suitable because:
+
+Product databases can contain thousands or millions of products.
+Binary Search reduces the search space by half in every step.
+It provides much faster search performance than Linear Search.
+
+Example for 1,000,000 products:
+
+Linear Search may perform up to 1,000,000 comparisons.
+Binary Search requires approximately 20 comparisons.
+
+However, Binary Search requires the products to be stored in sorted order.
+
+Conclusion
+Linear Search is suitable for small or unsorted datasets.
+Binary Search is suitable for large sorted datasets and provides significantly better performance.
+Therefore, Binary Search is the preferred search algorithm for an e-commerce platform where fast product retrieval is important.
