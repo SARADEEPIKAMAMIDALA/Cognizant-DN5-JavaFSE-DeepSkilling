@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Cognizant-DN5-JavaFSE-DeepSkilling\Week-01\Data-Structures-And-Algorithms\EcommercePlatformSearchFunction\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+1865797976.index
+879386859.index
