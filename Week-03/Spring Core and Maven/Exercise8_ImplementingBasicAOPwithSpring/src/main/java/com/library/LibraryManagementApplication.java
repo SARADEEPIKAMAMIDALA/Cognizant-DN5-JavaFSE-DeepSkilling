@@ -1,4 +1,5 @@
-package com.library1;
+package com.library;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
