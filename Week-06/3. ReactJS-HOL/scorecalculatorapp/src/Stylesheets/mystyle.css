@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+
+    text-align:center;
+    margin-top:20px;
+}
+
+h1{
+
+    color:brown;
+    font-size:50px;
+    margin-bottom:35px;
+}
+
+h2{
+
+    font-size:34px;
+    margin:12px;
+    font-weight:bold;
+}
+
+.blue{
+
+    color:blue;
+}
+
+.red{
+
+    color:red;
+}
+
+.purple{
+
+    color:purple;
+}
+
+.green{
+
+    color:green;
+}
+
+.value{
+
+    color:#b39ddb;
+    font-weight:normal;
+}
