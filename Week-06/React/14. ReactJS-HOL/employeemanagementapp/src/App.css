@@ -1,0 +1,20 @@
+
+.light{
+
+    background:white;
+
+    color:black;
+
+    border:1px solid black;
+
+}
+
+.dark{
+
+    background:black;
+
+    color:white;
+
+    border:1px solid white;
+
+}
