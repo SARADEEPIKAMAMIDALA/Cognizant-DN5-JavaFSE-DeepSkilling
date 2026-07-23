@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: red;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 8px;
+}
+
+input,
+textarea {
+  width: 200px;
+}
+
+button {
+  margin-top: 10px;
+}
