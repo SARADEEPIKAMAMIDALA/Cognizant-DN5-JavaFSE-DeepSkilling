@@ -1,0 +1,13 @@
+git status
+mkdir log
+echo This is a log file > sample.log
+echo Log data > log\test.txt
+notepad .gitignore
+
+
+
+git status
+git add .gitignore
+git commit -m "Added .gitignore to ignore log files and log folder"
+git push origin main
+git status
