@@ -1,0 +1,7 @@
+<app-header></app-header>
+
+<div class="spinner-bar" *ngIf="loadingService.isLoading$ | async">Loading…</div>
+
+<main class="page-container">
+  <router-outlet></router-outlet>
+</main>
