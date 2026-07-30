@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+.ng-invalid.ng-touched { border-color: #d32f2f; }
+.ng-valid.ng-touched { border-color: #2e7d32; }
